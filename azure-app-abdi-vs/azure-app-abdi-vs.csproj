@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_abdi_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/bbed0238-266e-4201-8876-288c6b6fdfd7/resourceGroups/az-group-rg-2/providers/microsoft.insights/components/az-webapp-abdi-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>f5fc7f07-758f-4954-a559-420bf804b45e</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
