@@ -14,7 +14,6 @@ namespace azure_app_abdi_vs.Pages
 
         public void OnGet()
         {
-            throw new Exception("Testing Insights");
         }
     }
 }
